@@ -4,7 +4,7 @@ if (!window.MY_LOADED) {
     var S = KISSY;
 
     S.config('loadModsFn', function (rs, config) {
-        var path = rs.path || rs.fullpath;
+        var path = rs.fullpath || rs.path;
         chrome.runtime.sendMessage(null, {
             path: path
         }, {}, function () {

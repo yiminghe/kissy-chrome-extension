@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "KISSY In Chrome Extension",
+    "description": "This extension demonstrates KISSY in chrome extension.",
+    "author": "yiminghe@gmail.com",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "webNavigation",
+        "http://*.taobao.com/*"
+    ],
+    "background": {
+        "page": "background.html",
+        "persistent": false
+    },
+    "content_security_policy": "script-src 'self' https://s.tbcdn.cn http://localhost; object-src 'self'",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}

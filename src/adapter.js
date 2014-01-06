@@ -5,9 +5,9 @@ if (!window.MY_LOADED) {
 
     S.config('loadModsFn', function (rs, config) {
         var path = rs.fullpath || rs.path;
-        chrome.runtime.sendMessage(null, {
+        chrome.runtime.sendMessage({
             path: path
-        }, {}, function () {
+        }, function () {
             config.success();
         });
     });

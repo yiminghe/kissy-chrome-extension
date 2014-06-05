@@ -20,3 +20,5 @@ load local chrome extension from src folder
 
 open [http://www.taobao.com](http://www.taobao.com)
 
+![demo](http://gtms01.alicdn.com/tps/i1/TB1lRbmFFXXXXa3XVXXqdgh8pXX-1015-149.png)
+

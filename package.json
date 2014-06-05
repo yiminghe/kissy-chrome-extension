@@ -1,0 +1,9 @@
+{
+    "name": "kissy-chrome-extension",
+    "version": "0.1.0",
+    "description": "KISSY",
+    "author": "yiminghe <yiminghe@gmail.com>",
+    "devDependencies": {
+        "express": "3.3.4"
+    }
+}
